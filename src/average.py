@@ -2,4 +2,5 @@ from typing import List
 
 
 def find_average(numbers: List[int]) -> float:
-    raise NotImplementedError
+    soma = sum(numbers)
+    return (soma/len(numbers))
